@@ -1,5 +1,9 @@
 <div align="center">
 
+<!-- Capsule Render Header Wave (gold gradient) -->
+<!-- Add this at the very TOP of your README for a gold wave banner: -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=f5c842,f0a500&height=200&section=header&text=K-aligrapher&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20·%20Designer%20·%20Data%20Enthusiast&descAlignY=55&descAlign=50) 
+
 <!-- ASCII Name -->
 <pre>
 <span style="background: linear-gradient(135deg,#f5c842,#f0a500,#ffd700,#e8870a); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
