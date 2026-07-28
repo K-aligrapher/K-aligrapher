@@ -1,4 +1,37 @@
 name: Metrics
+# ------------------------------------------------------------------
+# TECH STACK ("Mastered technologies" row):
+# plugin_topics (below) only shows icons for GitHub *topics you've
+# starred*. There's no config that injects a fixed badge list into
+# the SVG — it has to come from real starred-topic data. One-time
+# setup: visit each link below and click the star on that topic page.
+# Not every tool has a topic icon in metrics' icon set — expect these
+# to render: c, cplusplus, python, typescript, java, numpy, pandas,
+# scikit-learn, tensorflow, keras, matplotlib, dotnet, vercel, netlify,
+# figma. LaTeX, R, Canva, Swagger, Notion, CSS3 may not have a mapped
+# icon and could be skipped by the plugin even if starred.
+#
+#   https://github.com/topics/c
+#   https://github.com/topics/cplusplus
+#   https://github.com/topics/python
+#   https://github.com/topics/typescript
+#   https://github.com/topics/java
+#   https://github.com/topics/numpy
+#   https://github.com/topics/pandas
+#   https://github.com/topics/scikit-learn
+#   https://github.com/topics/tensorflow
+#   https://github.com/topics/keras
+#   https://github.com/topics/matplotlib
+#   https://github.com/topics/dotnet
+#   https://github.com/topics/vercel
+#   https://github.com/topics/netlify
+#   https://github.com/topics/figma
+#   https://github.com/topics/r
+#   https://github.com/topics/latex
+#   https://github.com/topics/css
+#   https://github.com/topics/notion
+#   https://github.com/topics/swagger
+# ------------------------------------------------------------------
 on:
   workflow_dispatch:
   schedule:
@@ -15,67 +48,56 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # --- Layout ---
-          config_display: large
+          # --- Layout: real two-column option is "columns", not "large" ---
+          config_display: columns
           config_timezone: Asia/Kolkata
 
-          # --- Panels (aligned like reference image) ---
+          # --- Header / activity / community / repos ---
           base: header, activity, community, repositories
+
+          # --- Isometric contributions calendar (also renders streak stats natively) ---
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # --- Activity charts & streaks ---
+          # --- Coding habits: per-hour + per-day charts + language activity bar ---
           plugin_habits: yes
-          plugin_habits_charts: languages, per-day, per-week, per-hour
+          plugin_habits_charts: per-day, per-hour, languages
           plugin_habits_days: 14
           plugin_habits_from: 100
           plugin_habits_charts_type: classic
-          plugin_streak: yes
-          plugin_streak_days: 365
-          plugin_streak_charts: yes
-          plugin_streak_charts_type: classic
 
-          # --- Languages ---
+          # --- Most used languages ---
           plugin_languages: yes
           plugin_languages_details: bytes-size
           plugin_languages_ignored: html, css
 
-          # --- PageSpeed ---
+          # --- PageSpeed Insights ---
           plugin_pagespeed: yes
           plugin_pagespeed_url: https://your-website.com
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_detailed: yes
 
-          # --- Music ---
+          # --- Suggested tracks (Apple Music only reliably supports playlist mode) ---
           plugin_music: yes
-          plugin_music_provider: apple
-          plugin_music_mode: recent
-          plugin_music_playcount: yes
+          plugin_music_playlist: https://embed.music.apple.com/us/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb
+          plugin_music_limit: 2
 
-          # --- Tech stack (from your badges list) ---
+          # --- Mastered technologies (pulls from GitHub topics YOU'VE STARRED — see notes) ---
           plugin_topics: yes
-          plugin_topics_limit: 20
           plugin_topics_mode: mastered
-          plugin_topics_skills: |
-            C, C++, CSS3, LaTeX, Java, Python, R, TypeScript,
-            Vercel, Netlify, .NET, Canva, Figma, Matplotlib,
-            Keras, NumPy, Pandas, scikit-learn, TensorFlow,
-            Swagger, Notion
+          plugin_topics_limit: 0
 
-          # --- Yellow / black theme (replacing blue lines) ---
+          # --- Projects (often errors — GitHub deprecated classic Projects API for most accounts) ---
+          plugin_projects: yes
+
+          # --- Theme: dark background + gold borders, ONLY headings turn gold ---
           extras_css: |
             :root {
               --color-canvas-default: #0d0d0d !important;
               --color-canvas-subtle: #161616 !important;
               --color-border-default: #FFD700 !important;
-              --color-accent-fg: #FFD700 !important;
-              --color-accent-emphasis: #FFD700 !important;
-              --color-fg-default: #FFD700 !important;
-              --color-fg-muted: #E8C468 !important;
-              --color-success-fg: #FFD700 !important;
-              --color-btn-primary-bg: #FFD700 !important;
+              --color-fg-default: #e6e6e6 !important;
+              --color-fg-muted: #b0b0b0 !important;
             }
             body { background-color: #0d0d0d !important; }
-            h1, h2, h3, .field, div.field, h2.field { color: #FFD700 !important; }
-            a { color: #FFD700 !important; }
-            .octicon { fill: #FFD700 !important; }
+            div.field, h2.field, h1 { color: #FFD700 !important; }
