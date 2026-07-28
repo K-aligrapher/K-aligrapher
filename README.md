@@ -1,4 +1,6 @@
 <div align="center">
+
+![metrics](./metrics.svg)
  
 <!-- ASCII Name 
 
