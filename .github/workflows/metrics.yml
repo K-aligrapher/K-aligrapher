@@ -1,0 +1,55 @@
+name: Metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"   # refresh every 6 hours
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+
+          # --- Panels shown in your screenshot ---
+          base: header, activity, community, repositories
+          plugin_habits: yes
+          plugin_habits_charts: languages, per-day, per-week, per-hour
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_details: bytes-size
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://your-website.com   # change or remove this line
+          plugin_pagespeed_detailed: yes
+          plugin_projects: yes
+          plugin_music: yes
+          plugin_music_provider: apple
+          plugin_music_playcount: yes
+
+          # --- Yellow / black theme ---
+          config_timezone: Asia/Kolkata
+          extras_css: |
+            :root {
+              --color-canvas-default: #0d0d0d !important;
+              --color-canvas-subtle: #161616 !important;
+              --color-border-default: #F0A500 !important;
+              --color-accent-fg: #FFD700 !important;
+              --color-accent-emphasis: #F0A500 !important;
+              --color-fg-default: #FFD700 !important;
+              --color-fg-muted: #E8C468 !important;
+              --color-success-fg: #F0A500 !important;
+              --color-btn-primary-bg: #F0A500 !important;
+            }
+            body { background-color: #0d0d0d !important; }
+            h1, h2, h3, .field, div.field, h2.field { color: #FFD700 !important; }
+            a { color: #F0A500 !important; }
+            .octicon { fill: #F0A500 !important; }
