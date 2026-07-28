@@ -16,8 +16,6 @@
 
 <br/>
 
-## 💻 Tech Stack
-
 <div align="center">
 
 ![C](https://img.shields.io/badge/c-000000.svg?style=for-the-badge&logo=c&logoColor=F0A500)
