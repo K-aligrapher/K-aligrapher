@@ -15,7 +15,7 @@
 </span>
 </pre>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F0A500&center=true&vCenter=true&width=500&lines=Developer+%7C+Engineering+Enthusiast;Always+learning+something+new+%F0%9F%9A%80)](https://git.io/typing-svg) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F0A500&center=true&vCenter=true&width=500&lines=Developer+%7C+Engineering+Enthusiast;Always+learning+something+new+%F0%9F%9A%80)](https://git.io/typing-svg) 
 
 <div align="center">
 
@@ -35,3 +35,4 @@
 ![](https://github-contributor-stats.vercel.app/api?username=K-aligrapher&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 [![](https://visitcount.itsvg.in/api?id=K-aligrapher&icon=0&color=0)](https://visitcount.itsvg.in)-->
+-->
