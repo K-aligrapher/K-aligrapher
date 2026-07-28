@@ -19,51 +19,63 @@ jobs:
           config_display: large
           config_timezone: Asia/Kolkata
 
-          # --- Panels ---
+          # --- Panels (aligned like reference image) ---
           base: header, activity, community, repositories
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- Activity charts & streaks ---
           plugin_habits: yes
           plugin_habits_charts: languages, per-day, per-week, per-hour
           plugin_habits_days: 14
           plugin_habits_from: 100
           plugin_habits_charts_type: classic
+          plugin_streak: yes
+          plugin_streak_days: 365
+          plugin_streak_charts: yes
+          plugin_streak_charts_type: classic
+
+          # --- Languages ---
           plugin_languages: yes
-          plugin_languages_ignored: html, css
           plugin_languages_details: bytes-size
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_languages_ignored: html, css
+
+          # --- PageSpeed ---
           plugin_pagespeed: yes
           plugin_pagespeed_url: https://your-website.com
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_detailed: yes
+
+          # --- Music ---
           plugin_music: yes
           plugin_music_provider: apple
           plugin_music_mode: recent
           plugin_music_playcount: yes
+
+          # --- Tech stack (from your badges list) ---
           plugin_topics: yes
           plugin_topics_limit: 20
           plugin_topics_mode: mastered
-
-          # --- Tech stack (from badges you gave) ---
           plugin_topics_skills: |
             C, C++, CSS3, LaTeX, Java, Python, R, TypeScript,
             Vercel, Netlify, .NET, Canva, Figma, Matplotlib,
             Keras, NumPy, Pandas, scikit-learn, TensorFlow,
             Swagger, Notion
 
-          # --- Yellow / black theme ---
+          # --- Yellow / black theme (replacing blue lines) ---
           extras_css: |
             :root {
               --color-canvas-default: #0d0d0d !important;
               --color-canvas-subtle: #161616 !important;
-              --color-border-default: #F0A500 !important;
+              --color-border-default: #FFD700 !important;
               --color-accent-fg: #FFD700 !important;
-              --color-accent-emphasis: #F0A500 !important;
+              --color-accent-emphasis: #FFD700 !important;
               --color-fg-default: #FFD700 !important;
               --color-fg-muted: #E8C468 !important;
-              --color-success-fg: #F0A500 !important;
-              --color-btn-primary-bg: #F0A500 !important;
+              --color-success-fg: #FFD700 !important;
+              --color-btn-primary-bg: #FFD700 !important;
             }
             body { background-color: #0d0d0d !important; }
             h1, h2, h3, .field, div.field, h2.field { color: #FFD700 !important; }
-            a { color: #F0A500 !important; }
-            .octicon { fill: #F0A500 !important; }
+            a { color: #FFD700 !important; }
+            .octicon { fill: #FFD700 !important; }
