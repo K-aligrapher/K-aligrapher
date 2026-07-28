@@ -6,18 +6,18 @@
     <style>:root {
  --color-canvas-default: #0d0d0d !important;
  --color-canvas-subtle: #161616 !important;
- --color-border-default: #F0A500 !important;
+ --color-border-default: #FFD700 !important;
  --color-accent-fg: #FFD700 !important;
- --color-accent-emphasis: #F0A500 !important;
+ --color-accent-emphasis: #FFD700 !important;
  --color-fg-default: #FFD700 !important;
  --color-fg-muted: #E8C468 !important;
- --color-success-fg: #F0A500 !important;
- --color-btn-primary-bg: #F0A500 !important;
+ --color-success-fg: #FFD700 !important;
+ --color-btn-primary-bg: #FFD700 !important;
 }
 body { background-color: #0d0d0d !important; }
 h1, h2, h3, .field, div.field, h2.field { color: #FFD700 !important; }
-a { color: #F0A500 !important; }
-.octicon { fill: #F0A500 !important; }</style>
+a { color: #FFD700 !important; }
+.octicon { fill: #FFD700 !important; }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -83,7 +83,7 @@ a { color: #F0A500 !important; }
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            185 Commits
+                            186 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
