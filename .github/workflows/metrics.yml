@@ -15,28 +15,34 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # --- Panels shown in your screenshot ---
+          # --- Wide two-column layout ---
+          config_display: large
+          config_timezone: Asia/Kolkata
+
+          # --- Panels ---
           base: header, activity, community, repositories
           plugin_habits: yes
           plugin_habits_charts: languages, per-day, per-week, per-hour
           plugin_habits_days: 14
-          plugin_habits_from: 200
+          plugin_habits_from: 100
+          plugin_habits_charts_type: classic
           plugin_languages: yes
           plugin_languages_ignored: html, css
-          plugin_languages_analysis_timeout: 15
           plugin_languages_details: bytes-size
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_pagespeed: yes
-          plugin_pagespeed_url: https://your-website.com   # change or remove this line
+          plugin_pagespeed_url: https://your-website.com
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_detailed: yes
-          plugin_projects: yes
           plugin_music: yes
           plugin_music_provider: apple
+          plugin_music_mode: recent
           plugin_music_playcount: yes
+          # plugin_projects intentionally omitted — currently broken for most accounts
+          # due to GitHub's deprecation of the classic Projects API
 
           # --- Yellow / black theme ---
-          config_timezone: Asia/Kolkata
           extras_css: |
             :root {
               --color-canvas-default: #0d0d0d !important;
