@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # --- Wide two-column layout ---
+          # --- Layout ---
           config_display: large
           config_timezone: Asia/Kolkata
 
@@ -39,8 +39,16 @@ jobs:
           plugin_music_provider: apple
           plugin_music_mode: recent
           plugin_music_playcount: yes
-          # plugin_projects intentionally omitted — currently broken for most accounts
-          # due to GitHub's deprecation of the classic Projects API
+          plugin_topics: yes
+          plugin_topics_limit: 20
+          plugin_topics_mode: mastered
+
+          # --- Tech stack (from badges you gave) ---
+          plugin_topics_skills: |
+            C, C++, CSS3, LaTeX, Java, Python, R, TypeScript,
+            Vercel, Netlify, .NET, Canva, Figma, Matplotlib,
+            Keras, NumPy, Pandas, scikit-learn, TensorFlow,
+            Swagger, Notion
 
           # --- Yellow / black theme ---
           extras_css: |
