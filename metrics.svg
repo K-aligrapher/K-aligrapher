@@ -40,17 +40,17 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                                 <g>
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -423,17 +423,18 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAMCBAYFAf/EACsQAAIBAwIEBgEFAAAAAAAAAAECAwAEESFBBQYSMRMUImFxkUIHFVGhwf/EABkBAAMBAQEAAAAAAAAAAAAAAAADBAECBf/EAB4RAAMAAwACAwAAAAAAAAAAAAABAgMRMQQFISJB/9oADAMBAAIRAxEAPwCcdr0gLgAfj8U4W/Sw74O+d6vmLqxtU1gEikaA/wAnY1a2QKStCrmdo3Q4VVZWIGGByNN9CN68ktS2TkDGtXCr9caTI6SFjEqd+2DkexLUzwZEciRSCNCCMUjFlWRblj82CsTSpGVW0nW66njkCZOvmuoe3p6B9ZorS3ECCMlRRVE8Jb3vg5UxVm0t455PUWyuGKq2Opdx8/5mgxY2ptlILa8hlKkhGBIxtv8A1SckupaXR+C1FpvhHmm3uY+Z7CaJD4UqN1NgYix30z+QON9QKo2Vgtj5ki5u7gTOXAnlMgTXOFz2Gv1iofqNz2vBOXGma1Ek005WNUZR4TBsjqGckFdd8HQ0vgfEf3Tg1lfdJHmIxJgipfCX1a/dl/sr3apcaLUuCApopqRvI2uaKuPKdHWMWnYfVKeGiisQGa4zyXwji3ERecQt5JWBVjH4hEbMNyo0Jxp8V3IrZY0VI41VFGFA7AUUUaU8B06+G+DfWBjOntRRRWnJ/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAYIBAcF/8QAKxAAAQMDAwMDAwUAAAAAAAAAAQIDBAAFERIhMQZBUQcTYRVxoSIyUoGx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAbEQADAQEBAQEAAAAAAAAAAAAAAQIDERIhE//aAAwDAQACEQMRAD8AmCDCcluaUAmnyx9BTpzAcQwrSeCRzWH00bjOXRCZQGg9z2NWd6fWWCq3MrIQtASMVXMzEemR3V6aOF8RGt+6LmQGitbDgSDjOnbNJhiKTJDKyEZ5UrgDkk1cfq7a0KtizFSnQnI/aMVJnUloTAvr8SdIZaeKAkkk4QV45OOyTvS6Kan0hsnU15f0TJrKmJTrSkKRpURpVyB2/FFdD9WpHT9yjW2fZpTDk1CER30tkfqSlGyiPgjGfGPFFTFQsdMPKiONSPdQ2CohJVnkY8A+a7l0p6tTLVCSWHGS2UhGFI7+efH2rgd8ukGdLQ5b7S3b2UpCSyl1SwT5yd81uT1M2lrQiEtAGNOl9Rx5557V1jZqeNHPTCXXUykbz169erIhThb1LQpZbzpBwOfsNjUy9TTn58912Q8H3CcKdB2VgYzn+qe+mOqrZeIH0qZ08FvobWTLYePv6RkjnnfYjuNqSrsHbdc2pDlvT7QbDam16glwacZUAcgkc7870O+ob8pT6mLZBG/aitUiSy44SzDaaT/EKUf9NFchjJRRRQBstc6RbprUmI77TqdtXbB2Ofivcl3Bcta/bkqd2ytzToH53oooMZ4khpkFRC8H4G1FFFYaf//Z" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">honeybee</div>
-                                    <div class="artist">Olivia Rodrigo</div>
+                                    <div class="name">Dracula (JENNIE Remix)
+Explicit Content</div>
+                                    <div class="artist">Tame Impala &amp; JENNIE</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYEBQEDBwj/xAAuEAACAQMCBAMIAwEAAAAAAAABAgMABBEFIQYSMUEUUWETFSJSYnGBkQcyocH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ATbGxJ6gEH81dWunyZBjQgj6a2WEaRkAqeX71dR3kduiloyxyAoAyWJ6AeZoI0Onld2U5NT4LBVGTCrE9Cc/8NW0K8yqJVVH7rnOD3H7qbFANjtn1oKXwKsuDCAezb7f7RTAsQ26UUCNaxhkBIArOvCSw0S51GEhZ0hfw7Hohxu+PPflHqSaQ9O4r963ci+ISzt0JZcn4nAO37FNnEMXvjh99P4fMjgoqiSZjzM3MD9ugoJN3xJpnDFrZW11LLLOsCD2ca875xksfye9WcnGllHp8F1YrNftPgRxwjfP15/qB671xeymu9G1yTxkpN4jFZGc8/Linz+MOJoNS4lvtNvIQokLTQNGAN1HxBsefXPnmgt9f4xuNPnhSadrb2y5DrEDGG+Xn3yf19hRTJrNvpeowT2NxGGiuAUZT1x557HPeig8syW9xZvieB0YfOpFOdhr+p6jaJZWs8aEgZklABU+h64oooF2XVJxeytcGKWXmPM5QEkjbOfxTpwFrbPq8McdpD7RwyB0jAIyMZLDcCiig6FDw/M/LJc6syuF3eIgHPfANFFFB/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAQHBgUD/8QAMhAAAgEDAwEGBAQHAAAAAAAAAQIDBAURAAYSIQcTIjFBUQhhcYFCUqGxYmORosHS8f/EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQB/8QAIBEBAAICAgIDAQAAAAAAAAAAAQACAxESIQQTMUFRof/aAAwDAQACEQMRAD8AlPavZ5qTtKrqSoXhF3vfcv5TOW5f3atdijt1PZ6cWmaCWnCDDxsCDrO/EhtmpW7W7c0cReh4ikq2H4Mnwsfkc4+o+enLZtmK1bfuBhcRiVAVVQAFb3wPfOsHlI67jPhjpYjvOGz3KF4K+qh7xumEbLj7DrqNbn2jNaYnqYZDLSgjBZcHr5a3tFtYCtMzVEoct1kjYr659Dj9NN9oTd1tB6aiQzytKi5xk9Ov+NRxX4IVZZnxc6rYj/wq29RdLzWF25rTonHHTDMf9dGlNh9oEWyKK7UYt9PW1EDRSSyRExmSNhlgPMZRnP10aRrVQYRkxrbqbr4gqiuquz+4LlFgVo3ZB1yA41iNnb5kq9kSUaKz3GgRFkbjy5x4wre/sP8AuvXtv3MZ6CW0UPKYyJmQICcKOvpqLbYvNXZ7r39C6rJIhibmMgqfMEfbR2LG3xO4rfJ6sx/ZZbdc0kpzkuo6s7OhQZ8zjPprPbh3SEOKEHhGThiPM++kqCqqLtKIa2VYlbHdiNfA7+ze3Trrr3bbi1FBKqxKGLcBI7KvA4B5AgkMvywD+2o1qD3L732STxV8oeslJ8U4Kt9zo03S2SdNxUlnr42ieSoVXI/KSOqn1GOoPlo0h7eOiEmK1+yX6G8WnaXZylfU0sdVfb9C5fvWC8YySoBbzCgeg6k/pAJqelM5kSqpg+c8QW/fGNGjVJ+HxNqAbTa7j1quc9PM0BpxUKVxwfk4A+QBwfrrppeZZlNHOTUU4YMtJKSjIf4fL+mfto0a4kniBQft1KLtXcVs3DXU4vkb1ssako5jVZaHj0Chh4uPr6jr1GdGjRrPkNM7Q6n/2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">MORNING DEW (DONK)</div>
-                                    <div class="artist">Beyoncé</div>
+                                    <div class="name">Look at My Life</div>
+                                    <div class="artist">Gracie Abrams</div>
                                 </div>
                             </div>
                         </div>
@@ -457,12 +458,6 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                             </svg>
                             Commits streaks
                         </h3>
-                        <div class="field">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.788 2.788 0 01-1.436-.874A3.21 3.21 0 003 10c0 2.53 2.164 4.5 4.998 4.5zM9.533.753C9.496.34 9.16.009 8.77.146 7.035.75 4.34 3.187 5.997 6.5c.344.689.285 1.218.003 1.5-.419.419-1.54.487-2.04-.832-.173-.454-.659-.762-1.035-.454C2.036 7.44 1.5 8.702 1.5 10c0 3.512 2.998 6 6.498 6s6.5-2.5 6.5-6c0-2.137-1.128-3.26-2.312-4.438-1.19-1.184-2.436-2.425-2.653-4.81z"/>
-                            </svg>
-                            Current streak 2 days
-                        </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M8.5.75a.75.75 0 00-1.5 0v5.19L4.391 3.33a.75.75 0 10-1.06 1.061L5.939 7H.75a.75.75 0 000 1.5h5.19l-2.61 2.609a.75.75 0 101.061 1.06L7 9.561v5.189a.75.75 0 001.5 0V9.56l2.609 2.61a.75.75 0 101.06-1.061L9.561 8.5h5.189a.75.75 0 000-1.5H9.56l2.61-2.609a.75.75 0 00-1.061-1.06L8.5 5.939V.75z"/>
@@ -2444,6 +2439,11 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                                 <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,8 0,7 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,7 1.7,8 z"/>
+                            </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                         </g>
                     </g>
