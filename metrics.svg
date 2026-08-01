@@ -38,17 +38,17 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -431,10 +431,10 @@ Explicit Content</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAMEAQUGB//EACYQAAICAgEEAgEFAAAAAAAAAAECAxEABCEFEhMxBkEHFCJRYZH/xAAZAQADAQEBAAAAAAAAAAAAAAADBAUCAQb/xAAmEQACAgECBAcBAAAAAAAAAAABAgADBBESEyExcSIyQVGBodGx/9oADAMBAAIRAxEAPwDzNl94rxs7qiAs7EKoA5J+hlTrjOma67XUtaFyAjOO6zXA5PN+6GeudtqlvaIKNSBJNHR29/yfpNWSQRkqxsLyCAas80SPV1mOoac/TuobOjux+Pa138cihgwBoH2DR4P0c72T5d8b0fmSTLp9X0tCKTXRWfVOq0cZAXuIFEx2BbMbayOfWaH8mRxR/kXrwgeOSJ5xIrRv3A2ouz/Ng3kzDznvsKuNI5dQqLuWc2FwxlYZViesrkqjkOwx7DQy+YCzkO1SxsRg7W2IWm8eviWKp9Zqtrq3VuqfItje+QRL1BJGPfFMx8C2oQFVUgggBaINis2+ztHanSRooYikSQhYU7V7UUKOB90OT9nnESa6nWKWLrnMwU8StiOFTwnKuOfI/seythQNX01I/PqMBwzPGGUpNi5WJP3kmz5D2FGAUMCwPNjDDB3eWM4w8Xwf5GO3ahaz/uTqu12oPJEDR7v2k8/1zhhnCu5x2mulZ7ygXQv3hhhhYCf/2Q==" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYEBQEDBwj/xAAuEAACAQMCBAMIAwEAAAAAAAABAgMABBEFIQYSMUEUUWETFSJSYnGBkQcyocH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ATbGxJ6gEH81dWunyZBjQgj6a2WEaRkAqeX71dR3kduiloyxyAoAyWJ6AeZoI0Onld2U5NT4LBVGTCrE9Cc/8NW0K8yqJVVH7rnOD3H7qbFANjtn1oKXwKsuDCAezb7f7RTAsQ26UUCNaxhkBIArOvCSw0S51GEhZ0hfw7Hohxu+PPflHqSaQ9O4r963ci+ISzt0JZcn4nAO37FNnEMXvjh99P4fMjgoqiSZjzM3MD9ugoJN3xJpnDFrZW11LLLOsCD2ca875xksfye9WcnGllHp8F1YrNftPgRxwjfP15/qB671xeymu9G1yTxkpN4jFZGc8/Linz+MOJoNS4lvtNvIQokLTQNGAN1HxBsefXPnmgt9f4xuNPnhSadrb2y5DrEDGG+Xn3yf19hRTJrNvpeowT2NxGGiuAUZT1x557HPeig8syW9xZvieB0YfOpFOdhr+p6jaJZWs8aEgZklABU+h64oooF2XVJxeytcGKWXmPM5QEkjbOfxTpwFrbPq8McdpD7RwyB0jAIyMZLDcCiig6FDw/M/LJc6syuF3eIgHPfANFFFB/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Stateside (with Zara Larsson)</div>
-                                    <div class="artist">PinkPantheress</div>
+                                    <div class="name">MORNING DEW (DONK)</div>
+                                    <div class="artist">Beyoncé</div>
                                 </div>
                             </div>
                         </div>
@@ -2446,6 +2446,11 @@ Explicit Content</div>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
                             <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
+                            <g transform="translate(-8.5, 11)">
                                 <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
