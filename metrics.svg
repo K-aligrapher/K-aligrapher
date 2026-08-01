@@ -227,14 +227,14 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="172.16418144336754" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="172.16418144336754" y="0" width="117.36606626025544" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="289.530247703623" y="0" width="95.01601915262552" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="384.5462668562485" y="0" width="22.316211484795396" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="406.8624783410439" y="0" width="18.394809909679996" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="425.2572882507239" y="0" width="15.100397136828317" height="8" fill="#5EC8DB"/>
-                    <rect mask="url(#languages-bar)" x="440.35768538755224" y="0" width="11.645927156829071" height="8" fill="#DA3434"/>
-                    <rect mask="url(#languages-bar)" x="452.00361254438127" y="0" width="7.996387455618728" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="169.34068319210522" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="169.34068319210522" y="0" width="115.44125890447931" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="284.78194209658454" y="0" width="96.06493577576472" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="380.8468778723493" y="0" width="26.887057575641283" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="407.7339354479906" y="0" width="18.09313442075509" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="425.82706986874564" y="0" width="14.8527501259823" height="8" fill="#5EC8DB"/>
+                    <rect mask="url(#languages-bar)" x="440.67981999472795" y="0" width="11.454933567535635" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="452.1347535622636" y="0" width="7.865246437736433" height="8" fill="#00B4AB"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -257,7 +257,7 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                                 Python
                             </div>
                             <small>
-                                <div>322 kB</div>
+                                <div>331 kB</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -303,7 +303,7 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                                 JavaScript
                             </div>
                             <small>
-                                <div>75.8 kB</div>
+                                <div>92.9 kB</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -423,18 +423,17 @@ div.field, h2.field, h1 { color: #FFD700 !important; }</style>
                         </div>
                         <div class="tracklist">
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAQDBQYCAQf/xAArEAACAAQEBgIBBQAAAAAAAAABAgADBBEFEiExEyJBUWFxFCPSJDI0UrH/xAAZAQACAwEAAAAAAAAAAAAAAAABAwACBAX/xAAeEQACAgICAwAAAAAAAAAAAAAAAQIhAxESEzJBUf/aAAwDAQACEQMRAD8A+KCUcjMDYKM0KrVOUc2XlHbzFw0spInkC/IdIoeIjJN+pbBR1PceY5uLUltm2dMlFU5lhrLe9to9NU+VTZdfERSZi8HWWujee3uB5i5E5F69T39w3ivhTbH5YLS1Y7trBE1OuamlMAALQRnk7HJUWbj6J9rEcNr39RmRMRcwFILNobs3uNdh6fIzpbdSLERaYtgeHth9EKBh+08ZtdZnXQ7adtDFMeRQVhnFydGAWZLEnmpgBm/se3uODORgAaRdNuYxqDgsq2VpgAvfaF6LCpbYjVSpgCy0VWVt7nba+g3hyzRexLjJULU38WXyhRba+0ET1UtZLtLQ8qmwghflY1UO4fiUlJ0yZUTVRyLCykf4IdfFKJmLfJW/pvxggidUWic2QtW0TX/U+dM34xwKukTilaoMXAU3udBtuIIIPXEG/ZV1s6W8xmVw1z5ggghiitA2f//Z" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAMCBAYFAf/EACsQAAIBAwIEBgEFAAAAAAAAAAECAwAEESFBBQYSMRMUImFxkUIHFVGhwf/EABkBAAMBAQEAAAAAAAAAAAAAAAADBAECBf/EAB4RAAMAAwACAwAAAAAAAAAAAAABAgMRMQQFISJB/9oADAMBAAIRAxEAPwCcdr0gLgAfj8U4W/Sw74O+d6vmLqxtU1gEikaA/wAnY1a2QKStCrmdo3Q4VVZWIGGByNN9CN68ktS2TkDGtXCr9caTI6SFjEqd+2DkexLUzwZEciRSCNCCMUjFlWRblj82CsTSpGVW0nW66njkCZOvmuoe3p6B9ZorS3ECCMlRRVE8Jb3vg5UxVm0t455PUWyuGKq2Opdx8/5mgxY2ptlILa8hlKkhGBIxtv8A1SckupaXR+C1FpvhHmm3uY+Z7CaJD4UqN1NgYix30z+QON9QKo2Vgtj5ki5u7gTOXAnlMgTXOFz2Gv1iofqNz2vBOXGma1Ek005WNUZR4TBsjqGckFdd8HQ0vgfEf3Tg1lfdJHmIxJgipfCX1a/dl/sr3apcaLUuCApopqRvI2uaKuPKdHWMWnYfVKeGiisQGa4zyXwji3ERecQt5JWBVjH4hEbMNyo0Jxp8V3IrZY0VI41VFGFA7AUUUaU8B06+G+DfWBjOntRRRWnJ/9k=" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">Doors
-Explicit Content</div>
-                                    <div class="artist">Noah Kahan</div>
+                                    <div class="name">stupid song</div>
+                                    <div class="artist">Olivia Rodrigo</div>
                                 </div>
                             </div>
                             <div class="track">
-                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYEBQEDBwj/xAAuEAACAQMCBAMIAwEAAAAAAAABAgMABBEFIQYSMUEUUWETFSJSYnGBkQcyocH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ATbGxJ6gEH81dWunyZBjQgj6a2WEaRkAqeX71dR3kduiloyxyAoAyWJ6AeZoI0Onld2U5NT4LBVGTCrE9Cc/8NW0K8yqJVVH7rnOD3H7qbFANjtn1oKXwKsuDCAezb7f7RTAsQ26UUCNaxhkBIArOvCSw0S51GEhZ0hfw7Hohxu+PPflHqSaQ9O4r963ci+ISzt0JZcn4nAO37FNnEMXvjh99P4fMjgoqiSZjzM3MD9ugoJN3xJpnDFrZW11LLLOsCD2ca875xksfye9WcnGllHp8F1YrNftPgRxwjfP15/qB671xeymu9G1yTxkpN4jFZGc8/Linz+MOJoNS4lvtNvIQokLTQNGAN1HxBsefXPnmgt9f4xuNPnhSadrb2y5DrEDGG+Xn3yf19hRTJrNvpeowT2NxGGiuAUZT1x557HPeig8syW9xZvieB0YfOpFOdhr+p6jaJZWs8aEgZklABU+h64oooF2XVJxeytcGKWXmPM5QEkjbOfxTpwFrbPq8McdpD7RwyB0jAIyMZLDcCiig6FDw/M/LJc6syuF3eIgHPfANFFFB/9k=" width="32" height="32" alt="" />
+                                <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAoACgDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYDBAUCB//EADMQAAEDBAECBAQCCwAAAAAAAAECAwQABQYRIRJBBxMxURQiYXEVFiQmJzJEgZGhsbLB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMBBP/EABwRAAIDAQEBAQAAAAAAAAAAAAECABEhAwQxEv/aAAwDAQACEQMRAD8AeLxOuP4vP6J8pDSHVJShK9AAHtSlm+Z3nF4VudbmPSX5zwZabDpTo63smpctivs5JcHWLpOAU6t1TQdHSgdRGgNfQ+u6VZWRRrxmDERK4si0wo5S3IkD+I4IUOOFbGvbW/eg16aiQWQI0x75mi20qmXKTDU4nrQEveYCnj1II0efSqFxyPLGQf1gnfdK1D/tbEK6Wu5Outw3o4diNhLzYBStCiedg+g4+tLGQXi3R5CELmxwkrCFDeyd79vagujY3xqEvYFmGRv5tZ4s++3B5p2UhKm1ukoWN8g80Uu4hcLc/ndlEeS0p341A6Or5thWvSimLgmD4hEyvEi/thxR/TnE6Cjv97WtD/FO0ttmz2dZLVvmwo7baFRlRyy6gLGkqUOedg9996x8wS5Zs8vdxXDtcxoXEvhXx3Q82QvQHQOSeRxo6qncr6zcMdejsTlNlb6R8E835i9Dup4jahvn+dV84sTe50SXH3LYyZb0xDXW610dQYK1b516KGvX1O9153k7ifiFJR87XVsfL0f22acsUVH8qUuZKSy+3poMlHV1k9x3OtdhVm9YsiZH81ufbUbGwHJASofQg+lc3rcp3qsnR51DcyT9iX4Wq/aXjR1om4Nf7UUwYJj6oXiLjy/xO1uhE9s9LcoFR0ew7mirBrEgwoybxHwvMJme5FKhWK7PRHZzjjS245KVp6tgg+1ctYXligVfly7IUrRIMdXB7/1ooq/FvzdSXQ3Uhd8P8sdltPMWW8sOoIUCI6iN++jwPvXM3B8/UFA228uDvuERv7aooo9UVgWI0TUdlYAHJP4fYNl0TxBx+ZOsN0RHZnNrddXHISlIPJJ7CiiigvyJjs//2Q==" width="32" height="32" alt="" />
                                 <div class="infos">
-                                    <div class="name">MORNING DEW (DONK)</div>
-                                    <div class="artist">Beyoncé</div>
+                                    <div class="name">Boston</div>
+                                    <div class="artist">STELLA LEFTY</div>
                                 </div>
                             </div>
                         </div>
