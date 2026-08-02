@@ -48,8 +48,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # --- Layout: real two-column option is "columns", not "large" ---
-          config_display: columns
+          # --- Layout: default single-column (columns mode has a known
+          #     height-clipping bug — #839/#814 — that was cutting off
+          #     the isocalendar plugin) ---
           config_timezone: Asia/Kolkata
 
           # --- Header / activity / community / repos ---
@@ -90,7 +91,7 @@ jobs:
           # --- Projects (often errors — GitHub deprecated classic Projects API for most accounts) ---
           plugin_projects: yes
 
-          # --- Theme: dark background, typewriter font, ONLY headings turn gold ---
+          # --- Theme: dark background, typewriter font, ONLY headings gold ---
           extras_css: |
             @font-face {
               font-family: 'Courier Prime';
@@ -100,16 +101,17 @@ jobs:
               --color-canvas-default: #0d0d0d !important;
               --color-canvas-subtle: #161616 !important;
               --color-border-default: #FFD700 !important;
+              --color-fg-default: #ffffff !important;
+              --color-fg-muted: #ffffff !important;
             }
             svg, body {
               background-color: #0d0d0d !important;
               font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
-              color: #ffffff !important;
             }
-            h1, h2 {
-              color: #FFD700 !important;
-            }
-            .field, .field svg {
+            .field, .field * , .field svg {
               color: #ffffff !important;
               fill: #ffffff !important;
+            }
+            h1, h2, h1 *, h2 * {
+              color: #FFD700 !important;
             }
