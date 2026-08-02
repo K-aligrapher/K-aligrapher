@@ -48,21 +48,19 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # --- Layout: two columns (smaller font below helps offset
-          #     the known columns height-clipping bug — #839/#814) ---
+          # --- Layout: two columns, small font ---
           config_display: columns
           config_timezone: Asia/Kolkata
 
-          # --- Render order: isocalendar earlier so it's less likely
-          #     to get pushed past the fixed viewbox height ---
-          config_order: header, isocalendar, activity+community, repositories, habits, languages, pagespeed, music, topics, projects
+          # --- Render order: flat calendar earlier, less height risk than isocalendar ---
+          config_order: header, calendar, activity+community, repositories, habits, languages, pagespeed, music, topics, projects
 
           # --- Header / activity / community / repos ---
           base: header, activity, community, repositories
 
-          # --- Isometric contributions calendar (also renders streak stats natively) ---
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # --- Flat GitHub-style contribution calendar (replaces isocalendar,
+          #     which was too tall for columns mode and got clipped) ---
+          plugin_calendar: yes
 
           # --- Coding habits: per-hour + per-day charts + language activity bar ---
           plugin_habits: yes
@@ -82,9 +80,9 @@ jobs:
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_detailed: yes
 
-          # --- Suggested tracks (Apple Music only reliably supports playlist mode) ---
+          # --- Suggested tracks (YouTube Music playlist) ---
           plugin_music: yes
-          plugin_music_playlist: https://embed.music.apple.com/us/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb
+          plugin_music_playlist: https://music.youtube.com/playlist?list=PLoVz0sFihwYIIQV3CMApI3PRcMqNWpGGW
           plugin_music_limit: 2
 
           # --- Mastered technologies (pulls from GitHub topics YOU'VE STARRED — see notes) ---
