@@ -52,15 +52,11 @@ jobs:
           config_display: columns
           config_timezone: Asia/Kolkata
 
-          # --- Render order: flat calendar earlier, less height risk than isocalendar ---
-          config_order: header, calendar, activity+community, repositories, habits, languages, pagespeed, music, topics, projects
+          # --- Render order (calendar removed) ---
+          config_order: header, activity+community, repositories, habits, languages, pagespeed, music, topics, projects
 
           # --- Header / activity / community / repos ---
           base: header, activity, community, repositories
-
-          # --- Flat GitHub-style contribution calendar (replaces isocalendar,
-          #     which was too tall for columns mode and got clipped) ---
-          plugin_calendar: yes
 
           # --- Coding habits: per-hour + per-day charts + language activity bar ---
           plugin_habits: yes
@@ -93,12 +89,8 @@ jobs:
           # --- Projects (often errors — GitHub deprecated classic Projects API for most accounts) ---
           plugin_projects: yes
 
-          # --- Theme: dark background, typewriter font, smaller size, ONLY headings gold ---
+          # --- Theme: dark background, default font, smaller size, ONLY headings gold ---
           extras_css: |
-            @font-face {
-              font-family: 'Courier Prime';
-              src: local('Courier New'), local('Courier');
-            }
             :root {
               --color-canvas-default: #0d0d0d !important;
               --color-canvas-subtle: #161616 !important;
@@ -108,7 +100,6 @@ jobs:
             }
             svg, body {
               background-color: #0d0d0d !important;
-              font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
               font-size: 11px !important;
             }
             .field, .field * , .field svg {
