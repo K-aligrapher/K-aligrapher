@@ -11,7 +11,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=Instagram&logoColor=F0A500)](https://instagram.com/k_aligrapher)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=F0A500)](https://linkedin.com/in/p-koti-darshan-199592287)
 [![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=F0A500)](mailto:kotidarshanp@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=portfolio&logoColor=F0A500)](https://p-koti-darshan.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=F0A500)](https://p-koti-darshan.vercel.app/)
 
 </div>
 
